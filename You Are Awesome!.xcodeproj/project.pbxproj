@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E723E68221FECEAD00D2A994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E723E68121FECEAD00D2A994 /* Assets.xcassets */; };
 		E7F84B1421E8130100CC17B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F84B1321E8130100CC17B4 /* AppDelegate.swift */; };
 		E7F84B1621E8130100CC17B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F84B1521E8130100CC17B4 /* ViewController.swift */; };
 		E7F84B1921E8130100CC17B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F84B1721E8130100CC17B4 /* Main.storyboard */; };
-		E7F84B1B21E8130300CC17B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7F84B1A21E8130300CC17B4 /* Assets.xcassets */; };
 		E7F84B1E21E8130300CC17B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7F84B1C21E8130300CC17B4 /* LaunchScreen.storyboard */; };
 		E7F84B2921E8130300CC17B4 /* You_Are_Awesome_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F84B2821E8130300CC17B4 /* You_Are_Awesome_Tests.swift */; };
 		E7F84B3421E8130300CC17B4 /* You_Are_Awesome_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F84B3321E8130300CC17B4 /* You_Are_Awesome_UITests.swift */; };
@@ -34,11 +34,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E723E68121FECEAD00D2A994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		E7F84B1021E8130100CC17B4 /* You Are Awesome!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "You Are Awesome!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F84B1321E8130100CC17B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7F84B1521E8130100CC17B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7F84B1821E8130100CC17B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E7F84B1A21E8130300CC17B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7F84B1D21E8130300CC17B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7F84B1F21E8130300CC17B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F84B2421E8130300CC17B4 /* You Are Awesome!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You Are Awesome!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +100,7 @@
 				E7F84B1321E8130100CC17B4 /* AppDelegate.swift */,
 				E7F84B1521E8130100CC17B4 /* ViewController.swift */,
 				E7F84B1721E8130100CC17B4 /* Main.storyboard */,
-				E7F84B1A21E8130300CC17B4 /* Assets.xcassets */,
+				E723E68121FECEAD00D2A994 /* Assets.xcassets */,
 				E7F84B1C21E8130300CC17B4 /* LaunchScreen.storyboard */,
 				E7F84B1F21E8130300CC17B4 /* Info.plist */,
 			);
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7F84B1E21E8130300CC17B4 /* LaunchScreen.storyboard in Resources */,
-				E7F84B1B21E8130300CC17B4 /* Assets.xcassets in Resources */,
+				E723E68221FECEAD00D2A994 /* Assets.xcassets in Resources */,
 				E7F84B1921E8130100CC17B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

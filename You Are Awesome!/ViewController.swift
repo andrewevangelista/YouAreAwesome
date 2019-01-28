@@ -69,6 +69,7 @@ class ViewController: UIViewController {
         
             if soundSwitch.isOn == false && soundIndex != -1{
                    awesomePlayer.stop()
+            
             }
         
     }
