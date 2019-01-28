@@ -37,7 +37,9 @@ class ViewController: UIViewController {
                         "I Can't Wait to Download Your App"]
         
         
-        var newIndex = -1
+//        var newIndex = -1
+        var newIndex: Int //declares but doesn't initialize newIndex
+        
         repeat {
             newIndex = Int.random(in:0..<messages.count)
         } while newIndex == Index
