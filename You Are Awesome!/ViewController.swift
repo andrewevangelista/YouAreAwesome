@@ -16,6 +16,12 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var messageLabel: UILabel!
+    
+    @IBOutlet weak var soundSwitch: UISwitch!
+    
+    
+    
+    
     var awesomePlayer = AVAudioPlayer()
     
     var index = -1
@@ -58,7 +64,17 @@ class ViewController: UIViewController {
         
     }
     
-
+    
+    @IBAction func soundSwitchPressed(_ sender: Any) {
+        
+            if soundSwitch.isOn == false && soundIndex != -1{
+                   awesomePlayer.stop()
+            }
+        
+    }
+    
+    
+    
     @IBAction func showMessagePressed(_ sender: UIButton) {
         
         let messages = ["You Are Awesome!",
@@ -85,12 +101,19 @@ class ViewController: UIViewController {
         
         
         //get a new sound
-        soundIndex = nonRepeatingRandom(lastNumber: soundIndex, maxValue: numberOfSounds)
+//        if soundSwitch.isOn == true {
+        if soundSwitch.isOn {
+            
+            soundIndex = nonRepeatingRandom(lastNumber: soundIndex, maxValue: numberOfSounds)
+            
+            
+            //playsound
+            let soundName = "sound\(soundIndex)"
+            
+                  playSound(soundName: soundName, audioPlayer: &awesomePlayer)
+        }
         
-        
-        //playsound
-        let soundName = "sound\(soundIndex)"
-        playSound(soundName: soundName, audioPlayer: &awesomePlayer)
+
         
         
         
