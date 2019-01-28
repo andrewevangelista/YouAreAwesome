@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var messageLabel: UILabel!
-    var index = 0
+    var Index = 0
     
     
     //Code below executes when the view loads
@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         print("The View Loaded!")
         
     }
-
+ 
 
     @IBAction func showMessagePressed(_ sender: UIButton) {
         
@@ -37,7 +37,18 @@ class ViewController: UIViewController {
                         "I Can't Wait to Download Your App"]
         
         
-        messageLabel.text = messages.randomElement()!
+        var newIndex = -1
+        repeat {
+            newIndex = Int.random(in:0..<messages.count)
+        } while newIndex == Index
+        
+        Index = newIndex
+        messageLabel.text = messages[Index]
+        
+        
+        
+        
+        //messageLabel.text = messages.randomElement()!
         
         
         
@@ -75,4 +86,4 @@ class ViewController: UIViewController {
     
  }
 
- }
+ 
